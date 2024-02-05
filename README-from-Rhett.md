@@ -14,4 +14,4 @@ the static block of the DecisionModels.java class (line 22) is generated code. C
 
 The next recommendation is to create and populate a Map that contains the dmn names and namespaces while you load the DMNs in. then you can lookup the DMNNamespace in the Map, so it doesnt need to be passed in with the request. 
 
-The two TrafficeViolation...java classes in org.kie package are the generated 
+The two TrafficeViolation...java classes in org.kie package are the generated controllers. they have no use except for reference, debugging.
