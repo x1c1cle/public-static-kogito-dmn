@@ -15,3 +15,16 @@ the static block of the DecisionModels.java class (line 22) is generated code. C
 The next recommendation is to create and populate a Map that contains the dmn names and namespaces while you load the DMNs in. then you can lookup the DMNNamespace in the Map, so it doesnt need to be passed in with the request. 
 
 The two TrafficeViolation...java classes in org.kie package are the generated controllers. they have no use except for reference, debugging.
+
+# Example request
+
+{
+    "DmnName" : "TrafficViolation-v1",
+    "DmnNamespace" : "https://github.com/kiegroup/drools/kie-dmn/_A4BCA8B8-CF08-433F-93B2-A2598F19ECF1",
+    "Driver" : {"Points":2},
+       "Violation": {
+           "Type": "speed",
+           "Actual Speed":"140",
+           "Speed Limit": 100
+       }
+}
