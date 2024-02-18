@@ -197,16 +197,16 @@
           </kie:ComponentWidths>
         </kie:ComponentsWidthsExtension>
       </di:extension>
-      <dmndi:DMNShape xmlns:p0="https://github.com/kiegroup/drools/kie-dmn/_A4BCA8B8-CF08-433F-93B2-A2598F19ECFF" id="dmnshape-drg-_1929CBD5-40E0-442D-B909-49CEDE0101DC" dmnElementRef="p0:_1929CBD5-40E0-442D-B909-49CEDE0101DC" isCollapsed="false">
+      <dmndi:DMNShape id="dmnshape-drg-_1929CBD5-40E0-442D-B909-49CEDE0101DC" dmnElementRef="_1929CBD5-40E0-442D-B909-49CEDE0101DC" isCollapsed="false">
         <dmndi:DMNStyle>
           <dmndi:FillColor red="255" green="255" blue="255"/>
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="708" y="350" width="100" height="50"/>
+        <dc:Bounds x="591" y="344" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
-      <dmndi:DMNShape xmlns:p1="https://github.com/kiegroup/drools/kie-dmn/_A4BCA8B8-CF08-433F-93B2-A2598F19ECFF" id="dmnshape-drg-_4055D956-1C47-479C-B3F4-BAEB61F1C929" dmnElementRef="p1:_4055D956-1C47-479C-B3F4-BAEB61F1C929" isCollapsed="false">
+      <dmndi:DMNShape id="dmnshape-drg-_4055D956-1C47-479C-B3F4-BAEB61F1C929" dmnElementRef="_4055D956-1C47-479C-B3F4-BAEB61F1C929" isCollapsed="false">
         <dmndi:DMNStyle>
           <dmndi:FillColor red="255" green="255" blue="255"/>
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
@@ -215,7 +215,7 @@
         <dc:Bounds x="709" y="210" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
-      <dmndi:DMNShape xmlns:p2="https://github.com/kiegroup/drools/kie-dmn/_A4BCA8B8-CF08-433F-93B2-A2598F19ECFF" id="dmnshape-drg-_1F9350D7-146D-46F1-85D8-15B5B68AF22A" dmnElementRef="p2:_1F9350D7-146D-46F1-85D8-15B5B68AF22A" isCollapsed="false">
+      <dmndi:DMNShape id="dmnshape-drg-_1F9350D7-146D-46F1-85D8-15B5B68AF22A" dmnElementRef="_1F9350D7-146D-46F1-85D8-15B5B68AF22A" isCollapsed="false">
         <dmndi:DMNStyle>
           <dmndi:FillColor red="255" green="255" blue="255"/>
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
@@ -224,7 +224,7 @@
         <dc:Bounds x="369" y="344" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
-      <dmndi:DMNShape xmlns:p3="https://github.com/kiegroup/drools/kie-dmn/_A4BCA8B8-CF08-433F-93B2-A2598F19ECFF" id="dmnshape-drg-_8A408366-D8E9-4626-ABF3-5F69AA01F880" dmnElementRef="p3:_8A408366-D8E9-4626-ABF3-5F69AA01F880" isCollapsed="false">
+      <dmndi:DMNShape id="dmnshape-drg-_8A408366-D8E9-4626-ABF3-5F69AA01F880" dmnElementRef="_8A408366-D8E9-4626-ABF3-5F69AA01F880" isCollapsed="false">
         <dmndi:DMNStyle>
           <dmndi:FillColor red="255" green="255" blue="255"/>
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
@@ -233,15 +233,15 @@
         <dc:Bounds x="534" y="83" width="133" height="63"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
-      <dmndi:DMNEdge xmlns:p4="https://github.com/kiegroup/drools/kie-dmn/_A4BCA8B8-CF08-433F-93B2-A2598F19ECFF" id="dmnedge-drg-_800A3BBB-90A3-4D9D-BA5E-A311DED0134F" dmnElementRef="p4:_800A3BBB-90A3-4D9D-BA5E-A311DED0134F">
-        <di:waypoint x="758" y="375"/>
+      <dmndi:DMNEdge id="dmnedge-drg-_800A3BBB-90A3-4D9D-BA5E-A311DED0134F" dmnElementRef="_800A3BBB-90A3-4D9D-BA5E-A311DED0134F">
+        <di:waypoint x="641" y="369"/>
         <di:waypoint x="759" y="235"/>
       </dmndi:DMNEdge>
-      <dmndi:DMNEdge xmlns:p5="https://github.com/kiegroup/drools/kie-dmn/_A4BCA8B8-CF08-433F-93B2-A2598F19ECFF" id="dmnedge-drg-_982211B1-5246-49CD-BE85-3211F71253CF" dmnElementRef="p5:_982211B1-5246-49CD-BE85-3211F71253CF">
+      <dmndi:DMNEdge id="dmnedge-drg-_982211B1-5246-49CD-BE85-3211F71253CF" dmnElementRef="_982211B1-5246-49CD-BE85-3211F71253CF">
         <di:waypoint x="419" y="369"/>
         <di:waypoint x="600.5" y="114.5"/>
       </dmndi:DMNEdge>
-      <dmndi:DMNEdge xmlns:p6="https://github.com/kiegroup/drools/kie-dmn/_A4BCA8B8-CF08-433F-93B2-A2598F19ECFF" id="dmnedge-drg-_AEC4AA5F-50C3-4FED-A0C2-261F90290731" dmnElementRef="p6:_AEC4AA5F-50C3-4FED-A0C2-261F90290731">
+      <dmndi:DMNEdge id="dmnedge-drg-_AEC4AA5F-50C3-4FED-A0C2-261F90290731" dmnElementRef="_AEC4AA5F-50C3-4FED-A0C2-261F90290731">
         <di:waypoint x="759" y="235"/>
         <di:waypoint x="600.5" y="114.5"/>
       </dmndi:DMNEdge>
