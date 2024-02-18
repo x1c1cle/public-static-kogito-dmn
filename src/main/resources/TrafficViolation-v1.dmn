@@ -70,6 +70,11 @@
           <dmn:text>Violation.Actual Speed - Violation.Speed Limit</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
+      <dmn:input id="_DABEFFA8-22CA-4C1D-ADE8-696657C84175">
+        <dmn:inputExpression typeRef="date">
+          <dmn:text>Violation.Date</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
       <dmn:output id="_9012031F-9C01-44E5-8CD2-E6704D594504" name="Amount" typeRef="number"/>
       <dmn:output id="_7CAC8240-E1A5-4FEB-A0D4-B8613F0DE54B" name="Points" typeRef="number"/>
       <dmn:annotation name=""/>
@@ -80,11 +85,14 @@
         <dmn:inputEntry id="_246AAB08-A945-4599-9220-7C24B6716FDD">
           <dmn:text>[10..30)</dmn:text>
         </dmn:inputEntry>
+        <dmn:inputEntry id="_35C9A702-D88D-4D40-8BCC-BF6C13FF0F24">
+          <dmn:text>2024</dmn:text>
+        </dmn:inputEntry>
         <dmn:outputEntry id="_E49345EE-51D3-47C7-B658-3607E723FF37">
           <dmn:text>500</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_1D56F3CB-6BAE-4415-940F-00F37121813D">
-          <dmn:text>3</dmn:text>
+          <dmn:text>4</dmn:text>
         </dmn:outputEntry>
         <dmn:annotationEntry>
           <dmn:text/>
@@ -97,11 +105,14 @@
         <dmn:inputEntry id="_8CEBE4D5-DBEF-46EF-BD95-7B96148B6D8A">
           <dmn:text>&gt;= 30</dmn:text>
         </dmn:inputEntry>
+        <dmn:inputEntry id="_697EF9DB-C9C4-4333-A615-383268AA4015">
+          <dmn:text>2024</dmn:text>
+        </dmn:inputEntry>
         <dmn:outputEntry id="_5FCC56B7-6BAA-4B09-AC61-7EB9D4CD58C3">
           <dmn:text>1000</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_79FF8FDD-3299-4DFD-AA14-D2022504BDAD">
-          <dmn:text>7</dmn:text>
+          <dmn:text>10</dmn:text>
         </dmn:outputEntry>
         <dmn:annotationEntry>
           <dmn:text/>
@@ -114,11 +125,14 @@
         <dmn:inputEntry id="_A5141FF4-8D63-49DB-8979-3B64A3BD9A82">
           <dmn:text>-</dmn:text>
         </dmn:inputEntry>
+        <dmn:inputEntry id="_BD2BBAF6-AD10-406C-9B8F-036A1D44AD0E">
+          <dmn:text>2024</dmn:text>
+        </dmn:inputEntry>
         <dmn:outputEntry id="_EFDA632D-113D-46C9-94B8-78E9F9770CA4">
           <dmn:text>100</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_05F86973-52CE-4C9D-B785-47B6340D10FD">
-          <dmn:text>1</dmn:text>
+          <dmn:text>3</dmn:text>
         </dmn:outputEntry>
         <dmn:annotationEntry>
           <dmn:text/>
@@ -131,11 +145,14 @@
         <dmn:inputEntry id="_BD2A43F5-46D8-436A-B8A1-D98747C836B1">
           <dmn:text>-</dmn:text>
         </dmn:inputEntry>
+        <dmn:inputEntry id="_9CC5CE1A-AE2A-4D01-813D-8E9E25386101">
+          <dmn:text>2024</dmn:text>
+        </dmn:inputEntry>
         <dmn:outputEntry id="_ECAF3378-46B6-4F40-B95A-E90DB700BF7D">
           <dmn:text>1000</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_F0016A9C-D1D0-472A-9FB3-ABE77AD15F7D">
-          <dmn:text>5</dmn:text>
+          <dmn:text>7</dmn:text>
         </dmn:outputEntry>
         <dmn:annotationEntry>
           <dmn:text/>
@@ -180,6 +197,7 @@
             <kie:width>50</kie:width>
             <kie:width>254</kie:width>
             <kie:width>329</kie:width>
+            <kie:width>100</kie:width>
             <kie:width>119</kie:width>
             <kie:width>100</kie:width>
             <kie:width>186</kie:width>
@@ -197,7 +215,7 @@
           </kie:ComponentWidths>
         </kie:ComponentsWidthsExtension>
       </di:extension>
-      <dmndi:DMNShape xmlns:p0="https://github.com/kiegroup/drools/kie-dmn/_A4BCA8B8-CF08-433F-93B2-A2598F19ECFF" id="dmnshape-drg-_1929CBD5-40E0-442D-B909-49CEDE0101DC" dmnElementRef="p0:_1929CBD5-40E0-442D-B909-49CEDE0101DC" isCollapsed="false">
+      <dmndi:DMNShape id="dmnshape-drg-_1929CBD5-40E0-442D-B909-49CEDE0101DC" dmnElementRef="_1929CBD5-40E0-442D-B909-49CEDE0101DC" isCollapsed="false">
         <dmndi:DMNStyle>
           <dmndi:FillColor red="255" green="255" blue="255"/>
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
@@ -206,7 +224,7 @@
         <dc:Bounds x="708" y="350" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
-      <dmndi:DMNShape xmlns:p1="https://github.com/kiegroup/drools/kie-dmn/_A4BCA8B8-CF08-433F-93B2-A2598F19ECFF" id="dmnshape-drg-_4055D956-1C47-479C-B3F4-BAEB61F1C929" dmnElementRef="p1:_4055D956-1C47-479C-B3F4-BAEB61F1C929" isCollapsed="false">
+      <dmndi:DMNShape id="dmnshape-drg-_4055D956-1C47-479C-B3F4-BAEB61F1C929" dmnElementRef="_4055D956-1C47-479C-B3F4-BAEB61F1C929" isCollapsed="false">
         <dmndi:DMNStyle>
           <dmndi:FillColor red="255" green="255" blue="255"/>
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
@@ -215,7 +233,7 @@
         <dc:Bounds x="709" y="210" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
-      <dmndi:DMNShape xmlns:p2="https://github.com/kiegroup/drools/kie-dmn/_A4BCA8B8-CF08-433F-93B2-A2598F19ECFF" id="dmnshape-drg-_1F9350D7-146D-46F1-85D8-15B5B68AF22A" dmnElementRef="p2:_1F9350D7-146D-46F1-85D8-15B5B68AF22A" isCollapsed="false">
+      <dmndi:DMNShape id="dmnshape-drg-_1F9350D7-146D-46F1-85D8-15B5B68AF22A" dmnElementRef="_1F9350D7-146D-46F1-85D8-15B5B68AF22A" isCollapsed="false">
         <dmndi:DMNStyle>
           <dmndi:FillColor red="255" green="255" blue="255"/>
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
@@ -224,7 +242,7 @@
         <dc:Bounds x="369" y="344" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
-      <dmndi:DMNShape xmlns:p3="https://github.com/kiegroup/drools/kie-dmn/_A4BCA8B8-CF08-433F-93B2-A2598F19ECFF" id="dmnshape-drg-_8A408366-D8E9-4626-ABF3-5F69AA01F880" dmnElementRef="p3:_8A408366-D8E9-4626-ABF3-5F69AA01F880" isCollapsed="false">
+      <dmndi:DMNShape id="dmnshape-drg-_8A408366-D8E9-4626-ABF3-5F69AA01F880" dmnElementRef="_8A408366-D8E9-4626-ABF3-5F69AA01F880" isCollapsed="false">
         <dmndi:DMNStyle>
           <dmndi:FillColor red="255" green="255" blue="255"/>
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
@@ -233,15 +251,15 @@
         <dc:Bounds x="534" y="83" width="133" height="63"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
-      <dmndi:DMNEdge xmlns:p4="https://github.com/kiegroup/drools/kie-dmn/_A4BCA8B8-CF08-433F-93B2-A2598F19ECFF" id="dmnedge-drg-_800A3BBB-90A3-4D9D-BA5E-A311DED0134F" dmnElementRef="p4:_800A3BBB-90A3-4D9D-BA5E-A311DED0134F">
+      <dmndi:DMNEdge id="dmnedge-drg-_800A3BBB-90A3-4D9D-BA5E-A311DED0134F" dmnElementRef="_800A3BBB-90A3-4D9D-BA5E-A311DED0134F">
         <di:waypoint x="758" y="375"/>
         <di:waypoint x="759" y="235"/>
       </dmndi:DMNEdge>
-      <dmndi:DMNEdge xmlns:p5="https://github.com/kiegroup/drools/kie-dmn/_A4BCA8B8-CF08-433F-93B2-A2598F19ECFF" id="dmnedge-drg-_982211B1-5246-49CD-BE85-3211F71253CF" dmnElementRef="p5:_982211B1-5246-49CD-BE85-3211F71253CF">
+      <dmndi:DMNEdge id="dmnedge-drg-_982211B1-5246-49CD-BE85-3211F71253CF" dmnElementRef="_982211B1-5246-49CD-BE85-3211F71253CF">
         <di:waypoint x="419" y="369"/>
         <di:waypoint x="600.5" y="114.5"/>
       </dmndi:DMNEdge>
-      <dmndi:DMNEdge xmlns:p6="https://github.com/kiegroup/drools/kie-dmn/_A4BCA8B8-CF08-433F-93B2-A2598F19ECFF" id="dmnedge-drg-_AEC4AA5F-50C3-4FED-A0C2-261F90290731" dmnElementRef="p6:_AEC4AA5F-50C3-4FED-A0C2-261F90290731">
+      <dmndi:DMNEdge id="dmnedge-drg-_AEC4AA5F-50C3-4FED-A0C2-261F90290731" dmnElementRef="_AEC4AA5F-50C3-4FED-A0C2-261F90290731">
         <di:waypoint x="759" y="235"/>
         <di:waypoint x="600.5" y="114.5"/>
       </dmndi:DMNEdge>

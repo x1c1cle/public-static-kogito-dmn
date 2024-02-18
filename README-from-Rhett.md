@@ -28,3 +28,20 @@ The two TrafficeViolation...java classes in org.kie package are the generated co
            "Speed Limit": 100
        }
 }
+
+
+
+default kogito messages have been suppressed. In the event of an error, see output CustomMessages list for errors. 
+
+# Example request that will cause a DMN error related to date(), and the subsequent error will be suppressed and replaced as per L83 in CustomController.java
+
+{
+    "DmnName" : "Dinner-v1",
+    "DmnNamespace" : "https://www.drools.org/kie-dmn/Dinner",
+    "Season": "Fall",
+    "Number of guests": 8,
+    "Temp": 20,
+    "Rain Probability": 80,
+    "Guests with children": 1,
+    "strDate":"2024-1144441-01"
+}

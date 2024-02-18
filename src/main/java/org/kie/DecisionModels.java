@@ -21,7 +21,7 @@ public class DecisionModels extends org.kie.kogito.dmn.AbstractDecisionModels {
 
     static {
         init(/* arguments provided during codegen */
-        null, null, readResource(Application.class.getResourceAsStream("/TrafficViolation-v2.dmn"), "UTF-8"), readResource(Application.class.getResourceAsStream("/TrafficViolation-v1.dmn"), "UTF-8"));
+        null, null,readResource(Application.class.getResourceAsStream("/Dinner-v1.dmn"), "UTF-8"), readResource(Application.class.getResourceAsStream("/TrafficViolation-v2.dmn"), "UTF-8"), readResource(Application.class.getResourceAsStream("/TrafficViolation-v1.dmn"), "UTF-8"));
     }
 
     public DecisionModels(org.kie.kogito.Application app) {
