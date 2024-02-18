@@ -70,11 +70,6 @@
           <dmn:text>Violation.Actual Speed - Violation.Speed Limit</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
-      <dmn:input id="_DABEFFA8-22CA-4C1D-ADE8-696657C84175">
-        <dmn:inputExpression typeRef="date">
-          <dmn:text>Violation.Date</dmn:text>
-        </dmn:inputExpression>
-      </dmn:input>
       <dmn:output id="_9012031F-9C01-44E5-8CD2-E6704D594504" name="Amount" typeRef="number"/>
       <dmn:output id="_7CAC8240-E1A5-4FEB-A0D4-B8613F0DE54B" name="Points" typeRef="number"/>
       <dmn:annotation name=""/>
@@ -84,9 +79,6 @@
         </dmn:inputEntry>
         <dmn:inputEntry id="_246AAB08-A945-4599-9220-7C24B6716FDD">
           <dmn:text>[10..30)</dmn:text>
-        </dmn:inputEntry>
-        <dmn:inputEntry id="_35C9A702-D88D-4D40-8BCC-BF6C13FF0F24">
-          <dmn:text>2024</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_E49345EE-51D3-47C7-B658-3607E723FF37">
           <dmn:text>500</dmn:text>
@@ -105,9 +97,6 @@
         <dmn:inputEntry id="_8CEBE4D5-DBEF-46EF-BD95-7B96148B6D8A">
           <dmn:text>&gt;= 30</dmn:text>
         </dmn:inputEntry>
-        <dmn:inputEntry id="_697EF9DB-C9C4-4333-A615-383268AA4015">
-          <dmn:text>2024</dmn:text>
-        </dmn:inputEntry>
         <dmn:outputEntry id="_5FCC56B7-6BAA-4B09-AC61-7EB9D4CD58C3">
           <dmn:text>1000</dmn:text>
         </dmn:outputEntry>
@@ -125,9 +114,6 @@
         <dmn:inputEntry id="_A5141FF4-8D63-49DB-8979-3B64A3BD9A82">
           <dmn:text>-</dmn:text>
         </dmn:inputEntry>
-        <dmn:inputEntry id="_BD2BBAF6-AD10-406C-9B8F-036A1D44AD0E">
-          <dmn:text>2024</dmn:text>
-        </dmn:inputEntry>
         <dmn:outputEntry id="_EFDA632D-113D-46C9-94B8-78E9F9770CA4">
           <dmn:text>100</dmn:text>
         </dmn:outputEntry>
@@ -144,9 +130,6 @@
         </dmn:inputEntry>
         <dmn:inputEntry id="_BD2A43F5-46D8-436A-B8A1-D98747C836B1">
           <dmn:text>-</dmn:text>
-        </dmn:inputEntry>
-        <dmn:inputEntry id="_9CC5CE1A-AE2A-4D01-813D-8E9E25386101">
-          <dmn:text>2024</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_ECAF3378-46B6-4F40-B95A-E90DB700BF7D">
           <dmn:text>1000</dmn:text>
@@ -197,7 +180,6 @@
             <kie:width>50</kie:width>
             <kie:width>254</kie:width>
             <kie:width>329</kie:width>
-            <kie:width>100</kie:width>
             <kie:width>119</kie:width>
             <kie:width>100</kie:width>
             <kie:width>186</kie:width>

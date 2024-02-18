@@ -31,9 +31,13 @@ The two TrafficeViolation...java classes in org.kie package are the generated co
 
 
 
-default kogito messages have been suppressed. In the event of an error, see output CustomMessages list for errors. 
+#Custom Messages
 
-# Example request that will cause a DMN error related to date(), and the subsequent error will be suppressed and replaced as per L83 in CustomController.java
+Default kogito messages have been suppressed. In the event of an error, see output CustomMessages list for errors. 
+
+# Example request- Custom Messages
+
+ Will cause a DMN error related to date(), and the subsequent error will be suppressed and replaced as per L83 in CustomController.java
 
 {
     "DmnName" : "Dinner-v1",
